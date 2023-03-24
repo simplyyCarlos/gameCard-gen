@@ -8,3 +8,7 @@ gameCardgen::gameCardgen(QWidget *parent)
 
 gameCardgen::~gameCardgen()
 {}
+
+void gameCardgen::updateModel()
+{
+}
