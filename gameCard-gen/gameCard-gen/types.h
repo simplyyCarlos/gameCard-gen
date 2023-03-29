@@ -22,5 +22,5 @@ enum manaMagic
 
 enum typesMagic
 {
-	Rituel,Ephemere,Enchantement,Artefact,Créature,Planeswalker,Terrain
+	Rituel,Ephemere,Enchantement,Artefact,Creature,Planeswalker,Terrain
 };

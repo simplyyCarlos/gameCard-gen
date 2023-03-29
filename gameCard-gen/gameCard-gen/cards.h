@@ -16,6 +16,6 @@ private:
 public:
 	Cards(string _name, string _type, string _description, int _num);
 	virtual ~Cards();
-	virtual Cards getCards() = 0;
+	virtual void getCards() = 0;
 };
 
