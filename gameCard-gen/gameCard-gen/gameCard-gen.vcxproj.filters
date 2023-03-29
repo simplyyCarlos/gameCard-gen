@@ -65,7 +65,7 @@
       <Filter>Source Files\Model</Filter>
     </ClCompile>
     <ClCompile Include="magic.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Model</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -92,10 +92,10 @@
     <ClInclude Include="yugioh.h">
       <Filter>Header Files\Model</Filter>
     </ClInclude>
-    <ClInclude Include="magic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="types.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="magic.h">
       <Filter>Header Files\Model</Filter>
     </ClInclude>
   </ItemGroup>

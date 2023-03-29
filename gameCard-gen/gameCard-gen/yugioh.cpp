@@ -1,7 +1,5 @@
 #include "yugioh.h"
 
-
-
 void Yugioh::getCards()
 {
 }
@@ -17,8 +15,6 @@ void Yugioh::removeObserver(Observer* observer)
 void Yugioh::addObserver(Observer* observer)
 {
 }
-
-
 
 Yugioh::~Yugioh()
 {
