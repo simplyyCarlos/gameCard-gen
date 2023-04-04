@@ -14,11 +14,11 @@
    <string>gameCardgen</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_Submit">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>310</y>
+      <x>460</x>
+      <y>370</y>
       <width>201</width>
       <height>21</height>
      </rect>
@@ -40,17 +40,17 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QGroupBox" name="groupBox">
+   <widget class="QGroupBox" name="groupBox_Details">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>40</y>
-      <width>261</width>
-      <height>211</height>
+      <x>390</x>
+      <y>20</y>
+      <width>361</width>
+      <height>311</height>
      </rect>
     </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string>Details</string>
     </property>
     <widget class="QLineEdit" name="lineEdit_Nom">
      <property name="geometry">
@@ -62,32 +62,22 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
+    <widget class="QLineEdit" name="lineEdit_Description">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>90</y>
+       <y>140</y>
        <width>261</width>
-       <height>21</height>
+       <height>51</height>
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_3">
+    <widget class="QLineEdit" name="lineEdit_Atk">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>130</y>
-       <width>261</width>
-       <height>21</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_4">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>180</y>
-       <width>261</width>
+       <y>280</y>
+       <width>71</width>
        <height>21</height>
       </rect>
      </property>
@@ -103,6 +93,147 @@
      </property>
      <property name="text">
       <string>Nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Type">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Description">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Description</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Atk">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>260</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Atk</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Niveau">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Niveau</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="spinBox_Level">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>220</y>
+       <width>51</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_TypeMonstre">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>200</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Type Monstre</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_TypeMonstre">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>220</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Attribut">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>200</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Attribut</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_AttributMonstre">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>220</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Def">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>260</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Def</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Def">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>280</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_TypeCard">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>90</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
      </property>
     </widget>
    </widget>
