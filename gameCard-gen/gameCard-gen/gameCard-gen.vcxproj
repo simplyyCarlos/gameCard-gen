@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5A59875A-24E4-4ADC-8EE9-C2B9E3342A9F}</ProjectGuid>
     <Keyword>QtVS_v304</Keyword>
-    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.19041.0</WindowsTargetPlatformVersion>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
@@ -96,11 +96,12 @@
   <ItemGroup>
     <ClInclude Include="abstractController.h" />
     <ClInclude Include="cards.h" />
+    <ClInclude Include="enumMagic.h" />
     <ClInclude Include="magic.h" />
     <ClInclude Include="observable.h" />
     <ClInclude Include="observer.h" />
     <ClInclude Include="submitController.h" />
-    <ClInclude Include="types.h" />
+    <ClInclude Include="enumYugioh.h" />
     <ClInclude Include="yugioh.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

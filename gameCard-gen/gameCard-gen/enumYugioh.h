@@ -14,13 +14,3 @@ enum attributMonstreYugioh
 {
 	Lumiere,Tenebre,Vent,Eau,Feu,Terre,Vide_Attribut
 };
-
-enum manaMagic
-{
-	Blanc,Bleu,Noir,Rouge,Vert
-};
-
-enum typesMagic
-{
-	Rituel,Ephemere,Enchantement,Artefact,Creature,Planeswalker,Terrain
-};
