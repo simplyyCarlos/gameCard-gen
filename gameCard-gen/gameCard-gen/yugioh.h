@@ -1,9 +1,7 @@
 #pragma once
 
 #include "cards.h"
-#include "qvector.h"
 #include "enumYugioh.h"
-#include "types.h"
 #include "ErrorHandler.h"
 #include <iostream>
 using namespace std;
