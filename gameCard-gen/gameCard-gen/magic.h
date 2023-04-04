@@ -1,7 +1,7 @@
 #pragma once
 #include "cards.h"
 #include "qvector.h"
-#include "types.h"
+#include "enumMagic.h"
 
 class Magic : public Cards
 {

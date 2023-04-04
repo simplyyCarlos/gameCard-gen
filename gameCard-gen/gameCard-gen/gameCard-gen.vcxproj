@@ -96,11 +96,12 @@
   <ItemGroup>
     <ClInclude Include="abstractController.h" />
     <ClInclude Include="cards.h" />
+    <ClInclude Include="enumMagic.h" />
     <ClInclude Include="magic.h" />
     <ClInclude Include="observable.h" />
     <ClInclude Include="observer.h" />
     <ClInclude Include="submitController.h" />
-    <ClInclude Include="types.h" />
+    <ClInclude Include="enumYugioh.h" />
     <ClInclude Include="yugioh.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
