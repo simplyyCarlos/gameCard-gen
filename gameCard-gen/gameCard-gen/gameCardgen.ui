@@ -14,19 +14,6 @@
    <string>gameCardgen</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton_Submit">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>370</y>
-      <width>201</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Submit</string>
-    </property>
-   </widget>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
@@ -46,13 +33,13 @@
       <x>390</x>
       <y>20</y>
       <width>361</width>
-      <height>311</height>
+      <height>361</height>
      </rect>
     </property>
     <property name="title">
      <string>Details</string>
     </property>
-    <widget class="QLineEdit" name="lineEdit_Nom">
+    <widget class="QLineEdit" name="lineEdit_Nom_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -62,7 +49,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_Description">
+    <widget class="QLineEdit" name="lineEdit_Description_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -72,7 +59,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_Atk">
+    <widget class="QLineEdit" name="lineEdit_Atk_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -82,7 +69,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLabel" name="label_Nom">
+    <widget class="QLabel" name="label_Nom_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -95,7 +82,7 @@
       <string>Nom</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_Type">
+    <widget class="QLabel" name="label_Type_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -108,7 +95,7 @@
       <string>Type</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_Description">
+    <widget class="QLabel" name="label_Description_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -121,7 +108,7 @@
       <string>Description</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_Atk">
+    <widget class="QLabel" name="label_Atk_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -134,7 +121,7 @@
       <string>Atk</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_Niveau">
+    <widget class="QLabel" name="label_Niveau_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -147,7 +134,7 @@
       <string>Niveau</string>
      </property>
     </widget>
-    <widget class="QSpinBox" name="spinBox_Level">
+    <widget class="QSpinBox" name="spinBox_Level_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -157,7 +144,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLabel" name="label_TypeMonstre">
+    <widget class="QLabel" name="label_TypeMonstre_Yugioh">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -170,7 +157,7 @@
       <string>Type Monstre</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_TypeMonstre">
+    <widget class="QComboBox" name="comboBox_TypeMonstre_Yugioh">
      <property name="geometry">
       <rect>
        <x>70</x>
@@ -180,7 +167,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLabel" name="label_Attribut">
+    <widget class="QLabel" name="label_Attribut_Yugioh">
      <property name="geometry">
       <rect>
        <x>210</x>
@@ -193,7 +180,7 @@
       <string>Attribut</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_AttributMonstre">
+    <widget class="QComboBox" name="comboBox_AttributMonstre_Yugioh">
      <property name="geometry">
       <rect>
        <x>210</x>
@@ -203,7 +190,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QLabel" name="label_Def">
+    <widget class="QLabel" name="label_Def_Yugioh">
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -216,7 +203,7 @@
       <string>Def</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_Def">
+    <widget class="QLineEdit" name="lineEdit_Def_Yugioh">
      <property name="geometry">
       <rect>
        <x>90</x>
@@ -226,7 +213,7 @@
       </rect>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_TypeCard">
+    <widget class="QComboBox" name="comboBox_TypeCard_Yugioh">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -236,202 +223,248 @@
       </rect>
      </property>
     </widget>
-   </widget>
-   <widget class="QGroupBox" name="groupBox_Details_YuGiOh_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>361</width>
-      <height>311</height>
-     </rect>
-    </property>
-    <property name="title">
-     <string>Details</string>
-    </property>
-    <widget class="QLineEdit" name="lineEdit_Nom_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>50</y>
-       <width>261</width>
-       <height>21</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_Description_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>140</y>
-       <width>261</width>
-       <height>51</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_Atk_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>280</y>
-       <width>71</width>
-       <height>21</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Nom_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>30</y>
-       <width>49</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Nom</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Type_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>70</y>
-       <width>49</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Type</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Description_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>120</y>
-       <width>71</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Description</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Atk_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>260</y>
-       <width>71</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Atk</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Niveau_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>200</y>
-       <width>71</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Niveau</string>
-     </property>
-    </widget>
-    <widget class="QSpinBox" name="spinBox_Level_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>220</y>
-       <width>51</width>
-       <height>22</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_TypeMonstre_2">
+    <widget class="QPushButton" name="pushButton_Submit_Yugioh">
      <property name="geometry">
       <rect>
        <x>70</x>
-       <y>200</y>
-       <width>81</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Type Monstre</string>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="comboBox_TypeMonstre_2">
-     <property name="geometry">
-      <rect>
-       <x>70</x>
-       <y>220</y>
-       <width>111</width>
-       <height>22</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Attribut_2">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>200</y>
-       <width>81</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Attribut</string>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="comboBox_AttributMonstre_2">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>220</y>
-       <width>111</width>
-       <height>22</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Def_2">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>260</y>
-       <width>71</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Def</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_Def_2">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>280</y>
-       <width>71</width>
+       <y>330</y>
+       <width>201</width>
        <height>21</height>
       </rect>
      </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_TypeCard_2">
+    <widget class="QGroupBox" name="groupBox_Details_Magic">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>90</y>
-       <width>111</width>
-       <height>22</height>
+       <y>0</y>
+       <width>361</width>
+       <height>361</height>
       </rect>
      </property>
+     <property name="title">
+      <string>Details</string>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_Nom_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>261</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Description_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>140</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Puissance_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>280</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Nom_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Type_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Type</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Description_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Puissance_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>260</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Puissance</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_TypeMonstre_Magic">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>260</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Type Monstre</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_TypeMonstre_Magic">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>280</y>
+        <width>111</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Endurance_Magic">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>260</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Endurance</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Endurance_Magic">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>280</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_TypeCard_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>90</y>
+        <width>111</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Submit_Magic">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>320</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Mana1_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mana1</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_Mana1_Magic">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>220</y>
+        <width>71</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_nbMana1_Magic">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>220</y>
+        <width>51</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Mana2_Magic">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>200</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mana2</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_Mana2_Magic">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>220</y>
+        <width>71</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBox_nbMana2_Magic">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>220</y>
+        <width>51</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
